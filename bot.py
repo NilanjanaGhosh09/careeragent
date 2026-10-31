@@ -4,8 +4,8 @@ TG = os.environ["TELEGRAM_TOKEN"]
 KEY = os.environ["GEMINI_API_KEY"]
 TG_URL = f"https://api.telegram.org/bot{TG}"
 MODELS = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.8-flash"]
-DB = "/data/profiles.json"
-TRACK_DB = "/data/track.json"
+DB = "profiles.json"
+TRACK_DB = "track.json"
 
 BASE = (
     "You are CareerAgent, a professional career assistant for students "
