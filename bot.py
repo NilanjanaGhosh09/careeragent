@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 import os, time, json, base64, requests
 
 TG = os.environ["TELEGRAM_TOKEN"]
